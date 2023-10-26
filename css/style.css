@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300&display=swap');
+
+body {
+   margin: 0;
+   background-image: url(../css/img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+nav a {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    padding-left: 30px;
+    word-spacing: 10px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    color: #FF2C86;
+    transform: scale(1.1);
+}
+
+.vertical-div {
+    display: flex;
+    flex-direction: column;
+}
+
+main .logo {
+    background-size: cover;
+    height: 100px;
+    width: 400px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+div iframe {
+    padding-top: 7%;
+    margin-left: 1%;
+}
+
+div.forms {
+    background-color: #270c79;
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 6%;
+
+}
+
+div.forms p{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.img-icons {
+    width: 50px;
+    height: 50px;
+    flex-direction: row;
+    margin-left: 19%;
+    margin-top: 10%;
+}
+
+.img-icons:hover {
+    transform: scale(2.2);
+}
+
+footer {
+    color: aliceblue;
+    margin-left: 12%;
+    margin-top: 1%;
+    font-weight: bolder;
+}
